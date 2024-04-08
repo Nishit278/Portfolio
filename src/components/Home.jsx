@@ -7,6 +7,7 @@ import Projects from "./Projects";
 import Skill from "./Skill";
 import Contact from "./Contact";
 import NavbarMobile from "./NavbarMobile";
+import lc from "../assets/leetcode.svg";
 
 const Home = ({
   aboutRef,
@@ -63,9 +64,17 @@ const Home = ({
             </a>
             <a
               href="https://twitter.com/_Nishit_01"
+              target="_blank"
               className="hover:scale-110 hover:cursor-pointer transition"
             >
               <Twitter className="text-white" />
+            </a>
+            <a
+              href="https://leetcode.com/Nishit27801/"
+              target="_blank"
+              className="hover:scale-110 hover:cursor-pointer transition"
+            >
+              <img src={lc} className="h-6 w-6" />
             </a>
             <a
               href="https://www.linkedin.com/in/nishit-bansal/"
