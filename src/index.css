@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.css-ymt5it-MuiTypography-root-MuiTimelineOppositeContent-root {
+  flex: 0 0 auto !important;
+  -webkit-box-flex: 0 m !important;
+}
+
 @layer base {
   html {
     box-sizing: border-box;

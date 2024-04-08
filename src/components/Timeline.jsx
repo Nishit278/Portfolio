@@ -10,6 +10,7 @@ import Typography from "@mui/material/Typography";
 import { BriefcaseBusiness } from "lucide-react";
 import { experimental_sx } from "@mui/material";
 import FM from "../assets/logo (1).png";
+import { styled } from "@mui/system";
 
 const TimeLine = ({ experienceRef }) => {
   return (
