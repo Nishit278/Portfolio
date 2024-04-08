@@ -7,7 +7,9 @@
   flex: 0 0 auto !important;
   -webkit-box-flex: 0 m !important;
 }
-
+.css-1xktgmm {
+  flex: 0 0 auto !important;
+}
 @layer base {
   html {
     box-sizing: border-box;
