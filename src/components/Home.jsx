@@ -39,7 +39,7 @@ const Home = ({
           <div className="ml-4 flex flex-col gap-4 items-center">
             <h1 className="sm:text-3xl text-xl text-center text-white font-bold">
               <p className="text-slate-200">Hi 👋🏼, I'm </p>
-              <p className="text-cyan-400 my-2"> Nishit Bansal</p>{" "}
+              <p className="text-cyan-400 text-3xl my-2"> Nishit Bansal</p>{" "}
             </h1>
             <p
               className="sm:text-lg text-md text-center text-emerald-500 uppercase font-semibold"
