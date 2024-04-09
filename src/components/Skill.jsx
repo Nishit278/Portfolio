@@ -15,6 +15,7 @@ import mongodb from "../assets/mongodb.svg";
 
 const Skill = ({skillsRef}) => {
   const languages = [
+    
     { name: "C++", icon: cpp },
     { name: "JavaScript", icon: javascript },
     { name: "TypeScript", icon: typescript },
@@ -54,7 +55,7 @@ const Skill = ({skillsRef}) => {
         
       </div>
       <div className="flex md:items-center md:flex-row flex-col px-8 items-start md:gap-8 gap-4">
-        <h1 className="text-white font-semibold text-lg">Frontend Frameworkds/ Libraries</h1>
+        <h1 className="text-white font-semibold text-lg">Frontend</h1>
         <div className="flex gap-8 items-center flex-wrap">
           {frontend.map((item, idx) => (
             <img
