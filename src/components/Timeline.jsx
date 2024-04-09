@@ -72,12 +72,12 @@ const TimeLine = ({ experienceRef }) => {
         <div className="flex flex-col gap-4 text-slate-200 px-10">
           <div className="flex gap-4 items-center">
             <img src={FM} className="w-8 h-8" alt="" />
-            <h1 className="text-xl text-green-500">Flatmate.in</h1>
+            <h1 className="text-lg text-green-500">Flatmate.in</h1>
           </div>
           <div className="flex flex-col gap-2 ">
-            <h1 className="text-slate-300 text-xl">Software Engineer</h1>
+            <h1 className="text-slate-200 text-lg">Software Engineer</h1>
             {/* <p className="text-emerald-500">Flatmate.in</p> */}
-            <p className="text-sm">Sep 2023 - Present</p>
+            <p className="text-sm text-slate-400">Sep 2023 - Present</p>
           </div>
           <ul className=" list-disc text-sm p-4 space-y-4">
             <li className="p-0">

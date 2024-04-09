@@ -35,7 +35,7 @@ const NavbarMobile = ({
   return (
     <nav className="h-20 md:hidden flex sticky inset-0 bg-neutral-950 z-[50] items-center justify-between px-4 text-2xl">
       <div className="text-white">
-        <h1 className="text-3xl text-emerald-500 font-bold">निशित</h1>
+        <h1 className="text-3xl hover:cursor-pointer text-emerald-500 font-bold">निशित</h1>
       </div>
       <div className="z-[50]">
         {!isOpen ? (

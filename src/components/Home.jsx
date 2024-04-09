@@ -32,19 +32,20 @@ const Home = ({
       <div className="bg-hero-pattern min-h-[300px] rounded-lg w-full">
         <div className="min-h-[300px] py-8 w-full bg-black/30 backdrop-blur-lg rounded-lg flex lg:flex-row flex-col lg:gap-2 gap-8 items-center justify-between px-12">
           <img
-            className="h-60 w-60 rounded-full border-4 shadow-[0_0_3px_#fff,inset_0_0_6px_#fff,0_0_12px_#03f,0_0_15px_#08f,0_0_70px_#02f] "
+            className="h-48 w-48 sm:h-60 sm:w-60 rounded-full border-4 shadow-[0_0_3px_#fff,inset_0_0_6px_#fff,0_0_12px_#03f,0_0_15px_#08f,0_0_70px_#02f] "
             src={Profile}
           />
           {/* professional looking and modern */}
           <div className="ml-4 flex flex-col gap-4 items-center">
-            <h1 className="text-3xl text-white font-bold">
-              Hi, I'm <span className="text-[#5b75f0]"> Nishit Bansal</span>{" "}
+            <h1 className="sm:text-3xl text-xl text-center text-white font-bold">
+              <p className="text-slate-200">Hi 👋🏼, I'm </p>
+              <p className="text-cyan-400 my-2"> Nishit Bansal</p>{" "}
             </h1>
             <p
-              className="text-lg text-[#5b75f0] uppercase font-semibold"
+              className="sm:text-lg text-md text-center text-emerald-500 uppercase font-semibold"
               id="typewriter"
             ></p>
-            <p className="text-sm text-zinc-300">
+            <p className="sm:text-base text-xs text-center text-slate-400">
               I code like Neo dodging bullets in the Matrix, but with better
               coffee.
             </p>
