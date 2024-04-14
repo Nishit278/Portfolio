@@ -4,6 +4,7 @@ import ml from "../assets/hsd.png";
 import conway from "../assets/Conway.png";
 import tw from "tailwind-styled-components";
 
+
 const Projects = ({ projectsRef }) => {
   const bapeTags = [
     { title: "NextJs", css: "bg-violet-50 text-violet-500 border-violet-300" },
@@ -37,7 +38,7 @@ const Projects = ({ projectsRef }) => {
         Projects
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 px-8 mt-8">
-        <Card href="https://github.com/Nishit278/Bored-Ape" target="_blank">
+        <Card href="https://bape-clothing.vercel.app/" target="_blank">
           <img
             src={bape}
             alt="bape"

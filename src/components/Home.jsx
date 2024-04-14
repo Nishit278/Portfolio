@@ -8,6 +8,7 @@ import Skill from "./Skill";
 import Contact from "./Contact";
 import NavbarMobile from "./NavbarMobile";
 import lc from "../assets/leetcode.svg";
+import { Tooltip } from "@mui/material";
 
 const Home = ({
   aboutRef,
@@ -39,7 +40,10 @@ const Home = ({
           <div className="ml-4 flex flex-col gap-4 items-center">
             <h1 className="sm:text-3xl text-xl text-center text-white font-bold">
               <p className="text-slate-200">Hi 👋🏼, I'm </p>
-              <p className="text-blue-400 my-2 text-2xl uppercase"> Nishit Bansal</p>{" "}
+              <p className="text-blue-400 my-2 text-2xl uppercase">
+                {" "}
+                Nishit Bansal
+              </p>{" "}
             </h1>
             <p
               className="sm:text-lg text-md text-center text-emerald-500 uppercase font-semibold"
@@ -56,34 +60,42 @@ const Home = ({
             </button> */}
           </div>
           <div className="flex px-4 py-2 gap-6 bg-black/30 rounded-full backdrop-blur-sm">
-            <a
-              href="https://github.com/Nishit278"
-              className="hover:scale-110 hover:cursor-pointer trasition"
-              target="_blank"
-            >
-              <Github className="text-orange-600" />
-            </a>
-            <a
-              href="https://twitter.com/_Nishit_01"
-              target="_blank"
-              className="hover:scale-110 hover:cursor-pointer transition"
-            >
-              <Twitter className="text-white" />
-            </a>
-            <a
-              href="https://leetcode.com/Nishit27801/"
-              target="_blank"
-              className="hover:scale-110 hover:cursor-pointer transition"
-            >
-              <img src={lc} className="h-6 w-6" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/nishit-bansal/"
-              className="hover:scale-110 hover:cursor-pointer transition"
-              target="_blank"
-            >
-              <Linkedin className="text-green-500" />
-            </a>
+            <Tooltip title="Github">
+              <a
+                href="https://github.com/Nishit278"
+                className="hover:scale-110 hover:cursor-pointer trasition"
+                target="_blank"
+              >
+                <Github className="text-orange-600" />
+              </a>
+            </Tooltip>
+            <Tooltip title="Twitter(X)">
+              <a
+                href="https://twitter.com/_Nishit_01"
+                target="_blank"
+                className="hover:scale-110 hover:cursor-pointer transition"
+              >
+                <Twitter className="text-white" />
+              </a>
+            </Tooltip>
+            <Tooltip title="Leetcode">
+              <a
+                href="https://leetcode.com/Nishit27801/"
+                target="_blank"
+                className="hover:scale-110 hover:cursor-pointer transition"
+              >
+                <img src={lc} className="h-6 w-6" />
+              </a>
+            </Tooltip>
+            <Tooltip title="Linkedin">
+              <a
+                href="https://www.linkedin.com/in/nishit-bansal/"
+                className="hover:scale-110 hover:cursor-pointer transition"
+                target="_blank"
+              >
+                <Linkedin className="text-green-500" />
+              </a>
+            </Tooltip>
           </div>
         </div>
       </div>
